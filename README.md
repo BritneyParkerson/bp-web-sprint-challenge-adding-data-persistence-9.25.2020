@@ -66,34 +66,34 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
--   [ ] Create a forked copy of this project
--   [ ] Add your team lead as collaborator on Github
--   [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
--   [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
--   [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
--   [ ] Push commits: git push origin `<firstName-lastName>`
+-   [X] Create a forked copy of this project
+-   [X] Add your team lead as collaborator on Github
+-   [X] Clone your OWN version of the repository (Not Lambda's by mistake!)
+-   [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+-   [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+-   [X] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
 Your finished project must include all of the following requirements:
 
--   [ ] Design the data model and use _knex migrations_ to create the database and tables needed to satisfy the following business rules:
-    -   [ ] a `project` can have multiple `tasks`.
-    -   [ ] a `task` belongs to only one `project`.
-    -   [ ] a `project` can use multiple `resources`. Example of `resources` are: computer, conference room, microphone, delivery van.
-    -   [ ] the same `resource` can be used in multiple `projects`.
-    -   [ ] when adding `projects` the client must provide a name, the description is optional.
-    -   [ ] when adding `resources` the client must provide a name, the description is optional.
-    -   [ ] when adding a `task` the client must provide a description, the notes are optional.
-    -   [ ] when adding a `task` the client must provide the `id` of an existing project.
-    -   [ ] for `projects` and `tasks` if no value is provided for the `completed` property, the API should provide a default value of `false`.
--   [ ] Build an API with endpoints for:
-    -   [ ] adding resources.
-    -   [ ] retrieving a list of resources.
-    -   [ ] adding projects.
-    -   [ ] retrieving a list of projects.
-    -   [ ] adding tasks.
-    -   [ ] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
+-   [X] Design the data model and use _knex migrations_ to create the database and tables needed to satisfy the following business rules:
+    -   [X] a `project` can have multiple `tasks`.
+    -   [X] a `task` belongs to only one `project`.
+    -   [X] a `project` can use multiple `resources`. Example of `resources` are: computer, conference room, microphone, delivery van.
+    -   [X] the same `resource` can be used in multiple `projects`.
+    -   [X] when adding `projects` the client must provide a name, the description is optional.
+    -   [X] when adding `resources` the client must provide a name, the description is optional.
+    -   [X] when adding a `task` the client must provide a description, the notes are optional.
+    -   [X] when adding a `task` the client must provide the `id` of an existing project.
+    -   [X] for `projects` and `tasks` if no value is provided for the `completed` property, the API should provide a default value of `false`.
+-   [X] Build an API with endpoints for:
+    -   [X] adding resources.
+    -   [X] retrieving a list of resources.
+    -   [X] adding projects.
+    -   [X] retrieving a list of projects.
+    -   [X] adding tasks.
+    -   [X] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
