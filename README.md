@@ -47,12 +47,18 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between `Relational Databases` and `SQL`.
+      - SQL, which stands for structured query language, is a programming language that is used to when you want to view or make changes to a database. Rational Databases store data points that are related to each other and the RD gives access to the data within the databases.
 
 2. Why do tables need a `primary key`?
+      - A primary key is a way to uniquely identify the rows of data within the table. It helps to identify which information is being requested so that there is less confusion when trying to query the data.
 
 3. What is the name given to a table column that references the primary key on another table.
+      - Foreign Key
 
 4. What do we need in order to have a _many to many_ relationship between two tables.
+      - Many to many relationships exist between tables that can be connected or bridged together. An example would be a table for bands and a table for venues. Many bands can play at one venue and one venue can host many bands. To join the 2 tables together we would use a JOIN statement and foreign keys in order to reference the primary key on each related table.
+
+      In short: We would need 2 related tables where many of one can be used by many of the other, such as bands and venues mentioned above.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
